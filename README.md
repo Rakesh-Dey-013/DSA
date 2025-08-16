@@ -6,6 +6,7 @@ This repository contains a collection of DSA problems, solutions, and explanatio
 ---
 
 ## 📂 Contents
+- **LeetCode Problems**
 - **Arrays**
 - **Strings**
 - **Loops**
