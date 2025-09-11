@@ -10,6 +10,8 @@ This repository contains a collection of DSA problems, solutions, and explanatio
 - **Arrays**
 - **Strings**
 - **Loops**
+- **Recursion**
+- **Searching Algorithms**
 
 ---
 
