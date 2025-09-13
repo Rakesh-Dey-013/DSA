@@ -5,6 +5,16 @@ This repository contains a collection of DSA problems, solutions, and explanatio
 
 ---
 
+## Profile
+Check out my profiles for more problems and solutions:  
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/CodeNexus_1357/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rakesh-Dey-013)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakeshdey007/)
+
+
 ## 📂 Contents
 - **LeetCode Problems**
 - **Arrays**
