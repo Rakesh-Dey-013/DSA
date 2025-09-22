@@ -1,24 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/*
- What is a Constructor ?
-    -> A constructor is a special method in a class.
-    -> It is automatically called when you create an object of that class.
-    -> Name = Class Name (must be same).
-    -> No return type (not even void).
-
- Why Use a Constructor?
-    -> Initialize objects automatically.
-    -> Avoid repetitive code (no need to call a separate method to initialize data).
-    -> Improve readability & maintainability of code.
-
- Types of Constructors
-    -> Default Constructor – No parameters, initializes with default values.
-    -> Parameterized Constructor – Takes parameters, initializes with custom values.
-    ->Copy Constructor – Creates a new object by copying values from another object.
-*/
-
 class Hero
 {
 private:
@@ -53,3 +35,21 @@ int main()
 
     return 0;
 }
+
+/*
+ What is a Constructor ?
+    -> A constructor is a special method in a class.
+    -> It is automatically called when you create an object of that class.
+    -> Name = Class Name (must be same).
+    -> No return type (not even void).
+
+ Why Use a Constructor?
+    -> Initialize objects automatically.
+    -> Avoid repetitive code (no need to call a separate method to initialize data).
+    -> Improve readability & maintainability of code.
+
+ Types of Constructors
+    -> Default Constructor – No parameters, initializes with default values.
+    -> Parameterized Constructor – Takes parameters, initializes with custom values.
+    ->Copy Constructor – Creates a new object by copying values from another object.
+*/
