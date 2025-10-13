@@ -1,6 +1,22 @@
 #include <iostream>
 using namespace std;
 
+/*
+Doubly Linked List --->
+
+Function	                    Description
+
+1. insertAtBeginning()	        Adds a node at the start of the list
+2. insertAtEnd()	            Adds a node at the end
+3. insertAtPosition()	        Inserts a node at a given 1-based position
+4. deleteByValue()	            Removes a node by value
+5. search()	                    Finds the position of a node
+6. displayForward()	            Prints list from head → tail
+7. displayBackward()	        Prints list from tail → head
+6. ~DoublyLinkedList()	        Frees all memory (prevents leaks)
+
+*/
+
 // Node structure for Doubly Linked List --->
 class Node
 {
