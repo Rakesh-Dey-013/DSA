@@ -256,12 +256,12 @@ int main()
 
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
-    SetConsoleTextAttribute(hConsole, 11); // Bright cyan
+    SetConsoleTextAttribute(hConsole, 11);
     cout << "===========================\n";
-    cout << "     Singly Linked List    \n";
+    cout << "     Doubly Linked List    \n";
     cout << "===========================\n";
 
-    SetConsoleTextAttribute(hConsole, 7); // Reset to default
+    SetConsoleTextAttribute(hConsole, 7);
 
     DoublyLinkedList list;
 
