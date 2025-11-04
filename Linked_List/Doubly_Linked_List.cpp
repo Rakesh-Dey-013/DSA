@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 /*
@@ -252,6 +253,16 @@ public:
 
 int main()
 {
+
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SetConsoleTextAttribute(hConsole, 11); // Bright cyan
+    cout << "===========================\n";
+    cout << "     Singly Linked List    \n";
+    cout << "===========================\n";
+
+    SetConsoleTextAttribute(hConsole, 7); // Reset to default
+
     DoublyLinkedList list;
 
     list.insertAtEnd(10);
