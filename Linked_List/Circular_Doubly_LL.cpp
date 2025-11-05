@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 // Node structure for circular doubly linked list
@@ -241,6 +242,14 @@ public:
 
 int main()
 {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SetConsoleTextAttribute(hConsole, 11);
+    cout << "======================================\n";
+    cout << "     Circular Doubly Linked List    \n";
+    cout << "======================================\n";
+
+    SetConsoleTextAttribute(hConsole, 7);
     CircularDoublyLL list;
 
     list.insertAtEnd(10);

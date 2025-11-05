@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 // Node structure for Circular Linked List --->
@@ -240,6 +241,14 @@ public:
 // Main function
 int main()
 {
+    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+
+    SetConsoleTextAttribute(hConsole, 11);
+    cout << "==============================\n";
+    cout << "     Circular Linked List    \n";
+    cout << "==============================\n";
+
+    SetConsoleTextAttribute(hConsole, 7);
     CircularLinkedList list;
 
     list.insertAtEnd(10);
