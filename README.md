@@ -22,6 +22,9 @@ Check out my profiles for more problems and solutions:
 - **Loops**
 - **Recursion**
 - **Searching Algorithms**
+- **Linked List**
+- **OOPs Concepts**
+- **Sorting**
 
 ---
 
